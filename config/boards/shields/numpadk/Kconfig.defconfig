@@ -1,4 +1,4 @@
-if SHIELD_NUMPAD
+if SHIELD_NUMPADK
 
 config ZMK_KEYBOARD_NAME
     default "NumPad"

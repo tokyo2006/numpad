@@ -14,7 +14,7 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: numpad
-    artifact-name: numpad
+    shield: numpadk
+    artifact-name: numpadk
   - board: nice_nano_v2
     shield: settings_reset
