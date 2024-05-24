@@ -1,4 +1,4 @@
-# zmk-config-ipadk
+# zmk-config-numpad
 
 
 <img src="keymap-drawer/numpad.svg" >
