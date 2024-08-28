@@ -81,7 +81,7 @@
 };
 
 &spi1 {
-    cs-gpios = <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+    cs-gpios = <&gpio0 2 GPIO_ACTIVE_LOW>;
     status = "okay";
     lcd0: lcd@0 {
         compatible = "jdi,lpm009m360a";
