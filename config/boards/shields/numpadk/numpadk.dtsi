@@ -52,8 +52,8 @@
     center_encoder: encoder_center {
 		compatible = "alps,ec11";
 		label = "CENTER_ENCODER";
-		a-gpios = <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-		b-gpios = <&gpio0 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+		a-gpios = <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&gpio0 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <15>;
 		status = "okay";
 	};
