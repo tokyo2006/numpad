@@ -53,7 +53,7 @@
 		compatible = "alps,ec11";
 		label = "CENTER_ENCODER";
 		a-gpios = <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		b-gpios = <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <15>;
 		status = "okay";
 	};
