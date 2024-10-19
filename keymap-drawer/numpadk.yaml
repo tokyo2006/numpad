@@ -1,32 +1,32 @@
 layers:
   Number:
-  - {t: '$$mdi:apple-keyboard-shift$$', h: Rgb}
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: Navi, h: toggle}
-  - {t: /, h: '?', s: '?'}
-  - KP MULTIPLY
+  - {t: '$$mdi:keyboard-tab$$', h: Flash}
+  - {t: '$$mdi:backspace$$', h: Rgb}
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:keyboard-esc$$
+  - KP DIVIDE
+  - '*'
   - {t: '-', s: _}
+  - $$mdi:arrow-left-bold$$
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - +
+  - $$mdi:arrow-down-bold$$
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: '$$mdi:keyboard-return$$', h: Number}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '0', s: )}
-  - {t: ., s: '>'}
-  - PREVIOUS
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-right-bold$$
-  - $$mdi:skip-next$$
-  - PLAY PAUSE
+  - .
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   Navi:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Number, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Number, h: toggle}
@@ -53,7 +53,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Flash:
   - '&dongle_bootload_macro'
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:bluetooth-off$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -78,9 +78,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Rgb:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
