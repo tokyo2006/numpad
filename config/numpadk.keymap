@@ -115,7 +115,7 @@
         Number {
             bindings = <
 &to 1       &ltq 2 TAB     &ltq 3 BACKSPACE                         &kp UP_ARROW
-&kp ESCAPE  &kp KP_DIVIDE  &kp ASTERISK      &kp MINUS              &kp LEFT_ARROW
+&kp ESCAPE  &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp MINUS              &kp LEFT_ARROW
 &kp N7      &kp N8         &kp N9            &kp PLUS               &kp DOWN_ARROW
 &kp N4      &kp N5         &kp N6            &kp ENTER              &kp RIGHT_ARROW
 &kp N1      &kp N2         &kp N3            &kp N0     &kp PERIOD  &none
@@ -127,11 +127,11 @@
 
         Navi {
             bindings = <
-&to 0           &trans          &trans                           &trans
-&trans          &trans          &trans           &trans          &trans
-&trans          &kp UP_ARROW    &trans           &trans          &trans
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans          &trans
-&trans          &trans          &trans           &trans  &trans  &trans
+&to 0           &trans          &trans                                   &trans
+&trans          &trans          &trans           &trans                  &trans
+&kp HOME        &kp UP_ARROW    &kp PAGE_UP      &trans                  &trans
+&kp LEFT_ARROW  &trans          &kp RIGHT_ARROW  &trans                  &trans
+&kp END         &kp DOWN_ARROW  &kp PAGE_DOWN    &kp INSERT  &kp DELETE  &trans
             >;
 
             label = "Navi";
@@ -140,11 +140,11 @@
 
         Flash {
             bindings = <
-&dongle_bootload_macro  &bt BT_CLR    &trans                                &trans
-&trans                  &trans        &bt BT_CLR_ALL  &trans                &trans
-&trans                  &trans        &bt BT_SEL 3    &bt BT_SEL 4          &trans
-&trans                  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2          &trans
-&trans                  &trans        &trans          &trans        &trans  &trans
+&dongle_bootload_macro  &trans        &trans                                &trans
+&bt BT_SEL 0            &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3            &trans
+&trans                  &trans        &trans        &bt BT_CLR              &trans
+&trans                  &trans        &trans        &bt BT_CLR_ALL          &trans
+&trans                  &trans        &trans        &trans          &trans  &trans
             >;
 
             label = "Flash";
@@ -152,11 +152,11 @@
 
         Rgb {
             bindings = <
-&trans  &trans           &trans                                             &trans
-&trans  &trans           &trans           &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD
-&trans  &trans           &rgb_ug RGB_SPI  &rgb_ug RGB_SPD                   &trans
-&trans  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &trans                            &trans
-&trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_TOG
+&trans           &trans           &trans                                    &rgb_ug RGB_SAI
+&trans           &trans           &trans           &trans                   &rgb_ug RGB_BRI
+&trans           &rgb_ug RGB_HUI  &trans           &rgb_ug RGB_EFR          &rgb_ug RGB_SAD
+&rgb_ug RGB_SPD  &trans           &rgb_ug RGB_SPI  &rgb_ug RGB_EFF          &rgb_ug RGB_BRD
+&trans           &rgb_ug RGB_HUD  &trans           &trans           &trans  &rgb_ug RGB_TOG
             >;
 
             label = "Rgb";
