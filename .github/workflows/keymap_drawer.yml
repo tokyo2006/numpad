@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - ".github/workflows/keymap_draser.yml"
-      - "keymap_drawer.config.yaml"
       - "config/**"
+      - .github/workflows/keymap_drawer.yml
+      - keymap_drawer.config.yaml
 
 jobs:
   draw:
